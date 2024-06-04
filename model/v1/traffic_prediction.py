@@ -3,8 +3,8 @@ from sklearn.preprocessing import MinMaxScaler
 import os
 import pandas as pd
 import numpy as np
-from constants import Headers, Paths, Constants
-import model.functions as fn
+from model.sgd_constants import Headers, Paths, Constants
+import model.sgd_functions as fn
 
 # Test Data
 learning_rate = 0.000001

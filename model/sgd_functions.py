@@ -1,9 +1,7 @@
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
 import os
 import pandas as pd
 import numpy as np
-from constants import Headers, Paths, Constants
+from model.sgd_constants import Headers, Paths
 
 def remove_unwanted_columns(garbage_headers: list, needed_headers: dict):
     if not os.path.exists(Paths.filtered_csv):
