@@ -3,6 +3,7 @@
 ## Table of Contents
 - [About](#about_section)
 - [Installation](#dependency_section)
+- [Sources](#sources)
 
 <a id="about_section"></a>
 
@@ -30,3 +31,8 @@ Must have a Python 3.10 or higher installed in your machine. If you do, then run
 ```
 pip install -r requirements.txt
 ```
+
+<a id="sources"></a>
+
+## Sources
+- [Traffic Data Source](https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt/about_data)
