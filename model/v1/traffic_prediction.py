@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import numpy as np
 from constants import Headers, Paths, Constants
-import functions as fn
+import model.functions as fn
 
 # Test Data
 learning_rate = 0.000001
