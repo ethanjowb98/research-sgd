@@ -1,4 +1,4 @@
 tensorflow  # Deep learning framework with SGD optimizer and TensorBoard
 numpy  # Numerical computations for data manipulation
 keras
-sklearn
+scikit-learn
