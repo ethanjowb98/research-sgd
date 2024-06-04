@@ -1,5 +1,12 @@
 # Stochastic Gradient Descent (SGD) with Mini-batching
 
+## Table of Contents
+- [About](#about_section)
+- [Installation](#dependency_section)
+
+<a id="about_section"></a>
+
+## What is it?
 **SGD (Stochastic Gradient Descent)** is an optimization algorithm commonly used for training models in machine learning, particularly for neural networks. It iteratively updates the model's parameters (weights and biases) to minimize a loss function that represents the model's error.
 
 **Challenges with Batch Gradient Descent:**
@@ -14,3 +21,12 @@
 **Implementation with Keras and Additional Features:**
 
 Here's a complete implementation of traffic prediction using Keras with SGD mini-batching, TensorBoard visualization, and model saving/loading:
+
+<a id="dependency_section"></a>
+
+## Installation of dependencies
+Must have a Python 3.10 or higher installed in your machine. If you do, then run this command
+
+```
+pip install -r requirements.txt
+```
