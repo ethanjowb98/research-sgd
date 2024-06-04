@@ -1,5 +1,5 @@
 class Paths:
-    data_dir = ".../data"
+    data_dir = "../data"
     data_csv = f"{data_dir}/data.csv"
     filtered_csv = f"{data_dir}/filtered.csv"
     segments_dir = f"{data_dir}/segments"

@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import numpy as np
-from model.sgd_constants import Headers, Paths
+from models.constants import Headers, Paths
 
 def remove_unwanted_columns(garbage_headers: list, needed_headers: dict):
     if not os.path.exists(Paths.filtered_csv):
